@@ -1,0 +1,544 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+button {
+    border: none;
+}
+/* HEADER */
+.header-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-1 img {
+    animation: img 3s infinite;
+}
+@keyframes img{
+    0%{
+        transform: translateY(20px) rotate(360deg);
+    }
+}
+.header-nav {
+    animation: nav 3s;
+}
+@keyframes nav{
+    0%{
+        transform: translateY(-1000px) rotate(360deg);
+    }
+    50%{
+        transform: translateX(-100px) rotate(180deg);
+    }
+    100%{
+        transform: translateX(100px) rotate(360deg);
+    }
+}
+.header-nav a {
+    margin-right: 200px;
+}
+.header-a{
+    margin: 0 -150px;
+    color: #25202F;
+    font-family: Red Hat Display;
+    font-size: 20px;
+    font-weight: 500;
+}
+.header-b {
+    margin: 0 -150px;
+    color: #7E7F86;
+font-family: Red Hat Display;
+font-size: 20px;
+font-weight: 500;
+}
+/* HEADER */
+
+/* HERO */
+.hero-block {
+    margin-top: -150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hero-left span {
+    color: #666;
+    font-family: Red Hat Display;
+    font-size: 24px;
+    font-weight: 500;
+}
+.hero-left h1 {
+    color: #25202F;
+font-family: Red Hat Display;
+font-size: 60px;
+font-weight: 700;
+animation: h1 5s infinite;
+}
+@keyframes h1{
+    0%{
+        transform: translateY(1000px) rotate(360deg);
+    }
+    40%{
+        transform: translateX(-100px) rotate(100deg);
+    }
+    80%{
+        transform: translateY(100px) rotate(200deg);
+    }
+    100%{
+        transform: translateX(-100px) rotate(360deg);
+    }
+
+}
+.hero-left p {
+    margin: 10px 0;
+    color: #25202F;
+    font-family: Red Hat Display;
+    font-size: 24px;
+    font-weight: 400;
+    animation: p 5s infinite;
+}
+@keyframes p{
+    0%{
+        transform: translateY(-1000px) rotate(360deg);
+    }
+    40%{
+        transform: translateX(100px) rotate(360deg);
+    }
+    80%{
+        transform: translateY(100px) rotate(360deg);
+    }
+    100%{
+        transform: translateX(-100px) rotate(360deg);
+    }
+
+}
+.hero-left button {
+    margin-top: 20px;
+    width: 200px;
+height: 60px;
+border-radius: 100px;
+background: #8643DC;
+color: #FFF;
+text-align: center;
+font-family: Red Hat Display;
+font-size: 24px;
+font-weight: 500;
+animation: button 5s infinite;
+}
+@keyframes button{
+    0%{
+        transform: translateX(100px) rotate(360deg);
+    }
+    40%{
+        transform: translateX(-100px) rotate(180deg);
+    }
+    80%{
+        transform: translateX(100px) rotate(90deg);
+    }
+    
+
+}
+.hero-img-1 {
+    position: relative;
+    animation: img 5s infinite ;
+}
+@keyframes img{
+    0%{
+        transform: translateY(-1000px) rotate(180deg);
+    }
+    40%{
+        transform: translateX(-1000px) rotate(200deg);
+    }
+    80%{
+        transform: translateY(450px) rotate(300deg);
+    }
+
+}
+.hero-img-2 {
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 40px;
+    animation: img-2 5s infinite;
+}
+@keyframes img-2{
+    0%{
+        transform: translateX(100px) rotate(360deg);
+    }
+    40%{
+        transform: translateX(-100px) rotate(180deg);
+    }
+    80%{
+        transform: translateX(100px) rotate(90deg);
+    }
+}
+/* HERO */
+
+/* BRAND */
+.brand {
+    padding-top: 80px;
+    margin: 0 70px;
+}
+.brand h1{
+    color: #25202F;
+font-family: Red Hat Display;
+font-size: 36px;
+font-weight: 700;
+}
+.brand-2 {
+    display: flex;
+    align-items: center;
+}
+.brand-2 h1 {
+    margin: 0 20px;
+    color: #25202F;
+font-family: Red Hat Display;
+font-size: 24px;
+font-weight: 700;
+}
+.brand-blocks {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.brand-block {
+    margin-top: 50px;
+}
+.brand-block p {
+    margin: 20px 0;
+    color: #47444E;
+font-family: Red Hat Display;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+}
+/* BRAND */
+
+/* APPLE */
+#aplle{
+    background: #BB85FFB2, #FFB1DEB2;
+}
+.aplle {
+    padding-top: 80px;
+    margin: 0 70px;
+}
+.apple-blocks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.aplle-block h1 {
+    color: #25202F;
+font-family: Red Hat Display;
+font-size: 36px;
+font-weight: 700;
+}
+.aplle-nav h3 {
+    color: #25202F;
+font-family: Red Hat Display;
+font-size: 24px;
+font-weight: 500;
+}
+.aplle-a {
+    margin: 0 -100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* APPLE */
+
+/* BIG */
+.big {
+    padding-top: 80px;
+    margin: 0 70px;
+}
+.big h1 {
+    color: #25202F;
+font-family: Red Hat Display;
+font-size: 36px;
+font-weight: 700;
+}
+.big-blocks {
+    margin: 50px 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.big-block {
+    width: 170px;
+height: 170px;
+border-radius: 10px;
+border: 1px solid #FFE7F0;
+background: #FFF6FA;
+}
+.big-2 img {
+    margin:30px 60px ;
+}
+.big-2 h3 {
+    color: #000;
+text-align: center;
+font-family: Red Hat Display;
+font-size: 18px;
+font-weight: 500;
+}
+.big-block-1 {
+    width: 170px;
+height: 170px;
+border-radius: 10px;
+border: 1px solid #CAFFE1;
+background: #EDFFF5;
+}
+/* BIG */
+
+/* REDMI */
+#redmi {
+    background: #CBA3FF, #C5FFB0;
+}
+.redmi {
+    padding-top: 80px;
+    margin: 0 70px;
+}
+.redmi h1 {
+    color: #25202F;
+font-family: Red Hat Display;
+font-size: 36px;
+font-weight: 700;
+}
+.redmi-img-1 {
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 500px;
+}
+.redmi-2 p {
+    margin-top: 50px;
+    color: #636066;
+text-align: center;
+font-family: Red Hat Display;
+font-size: 16px;
+font-weight: 500;
+line-height: 32px;
+}
+.redmi-img-2 {
+    position: absolute;
+    margin-left: 490px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.redmi-2 h2 {
+    margin-top: 150px;
+    color: #000;
+text-align: center;
+font-family: Red Hat Display;
+font-size: 20px;
+font-weight: 700;
+}
+.redmi-2 h3 {
+    margin-top: 10px;
+    color: #000;
+    text-align: center;
+font-family: Red Hat Display;
+font-size: 16px;
+font-weight: 400;
+
+}
+.redmi-img-3{
+mix-blend-mode: luminosity;
+    margin-top: -300px;
+position: absolute;
+filter: blur(2px);
+
+}
+.redmi-img-4{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -50px;
+    filter: blur(2px);
+}
+.redmi-img-5{
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: -300px;
+    filter: blur(2px);
+}
+.redmi-img-6{
+    position: absolute;
+    margin-left: 850px;
+    margin-top: -50px;
+    filter: blur(2px);
+}
+.redmi-img-7{
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 50px;
+}
+/* REDMI */
+
+/* BLOG */
+.blog {
+    padding-top: 200px;
+    margin: 0 70px;
+}
+.blog-block {
+    display: flex;
+}
+.blog-block  h1{
+    color: #25202F;
+    font-family: Red Hat Display;
+    font-size: 36px;
+    font-weight: 700;
+}
+.blog-2 img {
+    margin-top: 1000px;
+}
+.blog-2 h3 {
+    color: #000;
+    font-family: Red Hat Display;
+    font-size: 20px;
+    font-weight: 500;
+}
+.blog-3 img {
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 10px;
+}
+.blog-2 {
+    position: relative;
+    margin-top: -1000px;
+    
+}
+.blog-3 p {
+    margin: 0 20px;
+    position: absolute;
+    margin-top: 220px;
+    color: #FFF;
+font-family: Red Hat Display;
+font-size: 16px;
+font-weight: 500;
+}
+.blog-3 h3 {
+    margin: 0 20px;
+    position: absolute;
+    margin-top: 250px;
+    color: #FFF;
+font-family: Red Hat Display;
+font-size: 20px;
+font-weight: 700;
+}
+.blog-a{
+    padding: 10px 0 20px 0;
+
+}
+.blog-2 {
+    margin-left: 20px;
+}
+.blog-3 {
+    margin-left: 50px;
+}
+.blog-4 {
+    margin-left: 50px;
+}
+.blog-4 img {
+    position: relative;
+    margin-left: 260px;
+}
+.blog-4 h3 {
+margin-left: 280px;
+margin-top: -90px;
+position: absolute;
+    color: #FFF;
+    font-family: Red Hat Display;
+    font-size: 20px;
+    font-weight: 700;
+}
+.blog-4 p {
+    margin-left: 280px;
+    margin-top: -130px;
+    position: absolute;
+    color: #FFF;
+font-family: Red Hat Display;
+font-size: 16px;
+font-weight: 500;
+}
+/* BLOG */
+
+/* CONTACT */
+#contact {
+    background: #BB85FFD4, #FFF4FB;
+}
+.contact {
+    padding-top: 80px;
+    margin: 0 70px;
+}
+.contact-2 {
+    display: flex;
+ justify-content: space-between;
+}
+.contact-2 h1 {
+    color: #21232D;
+font-family: Roboto;
+font-size: 36px;
+font-weight: 500;
+}
+.contact-3 {
+    margin-top: 50px;
+}
+.span-1 {
+    color: #A8A0B0;
+font-family: Red Hat Display;
+font-size: 20px;
+font-weight: 400;
+}
+.span-2 {
+    color: #A8A0B0;
+font-family: Red Hat Display;
+font-size: 20px;
+font-weight: 400;
+}
+.span-3 {
+    color: #A8A0B0;
+font-family: Red Hat Display;
+font-size: 20px;
+font-weight: 400;
+}
+.contact-4 button{
+    margin-top: 50px;
+    width: 200px;
+height: 60px;
+border-radius: 100px;
+background: #8643DC;
+color: #FFF;
+text-align: center;
+font-family: Red Hat Display;
+font-size: 18px;
+font-weight: 500;
+}
+.contact-4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* CONTACT */
+
+/* FOOTER */
+.footer-1 h1 {
+    color: #21232D;
+    text-align: center;
+    font-family: Red Hat Display;
+    font-size: 36px;
+    font-weight: 700;
+}
+.footer-2 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer-2 img {
+margin: 0 -400px;
+}
+/* FOOTER */
